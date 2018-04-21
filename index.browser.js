@@ -1,4 +1,4 @@
-module.exports = (selector, rule) => {
+function first(selector, rule) {
 
   const tag = document.querySelector(selector)
 
